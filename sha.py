@@ -1,0 +1,24 @@
+print("Hello world!")
+print("This is a test file for SHA module.")
+
+
+def add(a, b):
+    return a + b
+
+
+def subtract(a, b):
+    return a - b
+
+
+def minus(a, b):
+    return subtract(a, b)
+
+
+def times(a, b):
+    return a * b
+
+
+print("Addition:", add(2, 3))
+print("Subtraction:", subtract(3, 1))
+print("Minus:", minus(6, 5))
+print("Times:", times(2, 3))
