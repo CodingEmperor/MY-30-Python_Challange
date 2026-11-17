@@ -92,11 +92,11 @@ print(len(age_set))   # Output: 5 (duplicates removed)
 
 Explain the difference between the following data types: string, list, tuple and set
 
-sentence = "I am a teacher and I love to inspire and teach people."
+sentence = "I am a developer and I am going to get a job as a developer"
 words = sentence.split() # Splits the string into a list of words
 unique_words = set(words) # Converts list to set to remove duplicates
 
 print(len(unique_words)) 
-# Output: 10 (The unique words are: 'I', 'am', 'a', 'teacher', 'and', 'love', 'to', 'inspire', 'teach', 'people.')
+# Output: 10 (The unique words are: 'I', 'am', 'a', 'developer', 'and', 'going', 'to', 'get', 'job', 'as')
 
 
